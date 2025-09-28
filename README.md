@@ -1,7 +1,7 @@
 # Book Searcher
 
 Book Searcher is a lightweight tool that makes it easy to **search inside large PDF textbooks**.  
-It uses **TF-IDF and cosine similarity** to find the most relevant passages, returning snippets and page numbers instantly.  
+It uses **TF-IDF (Term Frequency–Inverse Document Frequency) and cosine similarity** to find the most relevant passages, returning snippets and page numbers instantly.  
 
 ---
 
