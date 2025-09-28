@@ -21,7 +21,6 @@ It uses **TF-IDF and cosine similarity** to find the most relevant passages, ret
 - scikit-learn – TF-IDF vectorization  
 - PyPDF2 – PDF text extraction  
 - NumPy – math utilities  
-
 ---
 
 ##  Project Structure
