@@ -1,0 +1,13 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Uploaded PDFs and index (keep repo clean)
+storage/docs/
+storage/index/
