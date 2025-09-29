@@ -31,9 +31,7 @@ book-searcher/
 │── indexer.py      # PDF parsing + TF-IDF indexing
 │── requirements.txt
 │── README.md
-│── storage/
-│    ├── docs/      # uploaded PDFs
-│    └── index/     # saved index files
+
 ```
 
 ---
