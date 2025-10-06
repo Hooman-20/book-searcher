@@ -12,6 +12,7 @@ os.makedirs(DOCS_PATH, exist_ok=True)
 app = FastAPI(title="Book Searcher", description="Search inside PDFs with TF-IDF")
 
 
+
 @app.get("/")
 def root():
     return {"message": "Welcome to Book Searcher! Go to /docs to try the API."}
