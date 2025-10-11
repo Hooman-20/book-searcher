@@ -4,6 +4,7 @@ import PyPDF2
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+
 STORAGE_PATH = "storage"
 DOCS_PATH = os.path.join(STORAGE_PATH, "docs")
 INDEX_PATH = os.path.join(STORAGE_PATH, "index", "tfidf.pkl")
