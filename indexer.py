@@ -10,6 +10,7 @@ DOCS_PATH = os.path.join(STORAGE_PATH, "docs")
 INDEX_PATH = os.path.join(STORAGE_PATH, "index", "tfidf.pkl")
 
 
+
 def extract_text_from_pdf(path: str) -> list[str]:
     """Pull out text from each page of a PDF file."""
     text_by_page = []
