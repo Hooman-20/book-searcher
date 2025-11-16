@@ -10,7 +10,6 @@ DOCS_PATH = os.path.join(STORAGE_PATH, "docs")
 INDEX_PATH = os.path.join(STORAGE_PATH, "index", "tfidf.pkl")
 
 
-
 def extract_text_from_pdf(path: str) -> list[str]:
     """Pull out text from each page of a PDF file."""
     text_by_page = []
@@ -53,6 +52,7 @@ def load_index():
         return None, None, None
     with open(INDEX_PATH, "rb") as f:
         return pickle.load(f)
+
 
 
 def search(query: str, k: int = 3):
