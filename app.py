@@ -19,6 +19,7 @@ def root():
     return {"message": "Welcome to Book Searcher! Go to /docs to try the API."}
 
 
+
 @app.post("/upload")
 async def upload_file(file: UploadFile = File(...)):
     """Upload a PDF file and reindex documents."""
