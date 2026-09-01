@@ -6,9 +6,6 @@ It uses **TF-IDF (Term Frequency–Inverse Document Frequency) and cosine simila
 ---
 
 
-
-
-
 ##  Features
 - Upload PDF(s) and automatically index them by page  
 - Keyword search with **ranked results**  
